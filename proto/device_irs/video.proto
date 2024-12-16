@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package video;
+
+message Camera {
+  string action = 1;
+  string type = 2;
+  int32 id = 3;
+  bool preprocessing = 4;
+  bool postprocessing = 5;
+}
